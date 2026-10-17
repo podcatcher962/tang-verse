@@ -268,14 +268,14 @@
         <button class="vtab on" onclick="setVersion('light',this)"><span class="only-zh">浅色版</span><span class="only-en">Light</span></button>
         <button class="vtab" onclick="setVersion('dark',this)"><span class="only-zh">深色版</span><span class="only-en">Dark</span></button>
       </div>
-      <video id="player" controls preload="metadata" src="the-tang-verse-showcase-light.mp4?v=7"></video>
+      <video id="player" controls preload="metadata" src="https://tang-verse-showcase.app.workbuddy.host/the-tang-verse-showcase-light.mp4?v=7"></video>
     </div>
     <div class="meta">
       <h3 class="serif"><span class="only-zh">🎬 大唐诗路 · 系列发布片</span><span class="only-en">🎬 The Tang Verse — Collection Film</span></h3>
       <p><span class="only-zh">竖版 82 秒：材质系统、设计链路与全部场景组。内嵌原创配乐，点播放即可听。</span><span class="only-en">82s vertical film covering the material system, design chain and every scene group — with an original score built in.</span></p>
       <div class="specs"><span>1080 × 1920</span><span>25 fps</span><span>H.264</span><span>82s</span><span class="only-zh">原创配乐 · 立体声</span><span class="only-en">original score · stereo</span></div>
       <p style="margin:-6px 0 14px"><span class="only-zh">♪ 配乐为程序合成的原创曲目（古筝 / 箫 / 太鼓 / 弦乐垫），不含任何第三方采样，可放心商用。</span><span class="only-en">♪ The score is procedurally synthesised (guzheng, xiao, taiko, strings) with no third-party samples — safe for commercial use.</span></p>
-      <a class="btn" id="dlBtn" href="the-tang-verse-showcase-light.mp4?v=7" download="The-Tang-Verse-Light.mp4"><span class="only-zh">⬇ 下载 MP4</span><span class="only-en">⬇ Download MP4</span></a>
+      <a class="btn" id="dlBtn" href="https://github.com/podcatcher962/tang-verse/releases/download/v1.0/the-tang-verse-showcase-light.mp4" download="The-Tang-Verse-Light.mp4"><span class="only-zh">⬇ 下载 MP4</span><span class="only-en">⬇ Download MP4</span></a>
       <div class="aibar">
         <span class="only-zh">🤖 <b>AI 生成声明</b>：本页图像与视频均由 AI 生成（美图设计室 / 内置图像生成模型），模特为虚拟形象，非真实人物。依据《人工智能生成合成内容标识办法》，发布至公开平台时请勾选「AI 生成」标识。</span>
         <span class="only-en">🤖 <b>AI disclosure</b>: All imagery and video here are AI-generated (Meitu DesignKit / built-in image model). Models are virtual, not real persons. Per China's AI-generated content labelling rules, mark "AI-generated" when posting publicly.</span>
@@ -322,12 +322,16 @@ function toggleTheme(){
 }
 
 /* ---------- video version switch ---------- */
+/* 影片托管于发布镜像（GitHub 单文件上限 100MB，但本地出网通道对 >16MB 的 API 上传有拦截，
+   52MB 视频无法直接入库）；下载按钮指向 GitHub Release 上的正式版本。 */
+var VPLAY = 'https://tang-verse-showcase.app.workbuddy.host/';
+var VDL   = 'https://github.com/podcatcher962/tang-verse/releases/download/v1.0/';
 function setVersion(v, btn){
   var p = document.getElementById('player');
-  var src = (v==='light' ? 'the-tang-verse-showcase-light.mp4' : 'the-tang-verse-showcase.mp4') + '?v=7';
-  p.src = src; p.load();
+  var name = v==='light' ? 'the-tang-verse-showcase-light.mp4' : 'the-tang-verse-showcase.mp4';
+  p.src = VPLAY + name + '?v=7'; p.load();
   var dl = document.getElementById('dlBtn');
-  dl.href = src;
+  dl.href = VDL + name;
   dl.setAttribute('download', v==='light' ? 'The-Tang-Verse-Light.mp4' : 'The-Tang-Verse-Dark.mp4');
   document.querySelectorAll('.vtab').forEach(function(b){ b.classList.remove('on'); });
   btn.classList.add('on');
