@@ -37,14 +37,14 @@
 
 ### 发布片
 
-页面内可直接播放（默认浅色版，可切深色版），也可下载：
+页面内可直接播放（默认浅色版，可切深色版），也可下载高清原件：
 
-| 版本 | 文件（GitHub Release） | 大小 |
+| 版本 | 仓库内网页版（站内播放） | 高清原件（Release 下载） |
 |---|---|---|
-| ☀️ 浅色版 | [`the-tang-verse-showcase-light.mp4`](https://github.com/podcatcher962/tang-verse/releases/download/v1.0/the-tang-verse-showcase-light.mp4) | 23.5 MB |
-| 🌙 深色版 | [`the-tang-verse-showcase.mp4`](https://github.com/podcatcher962/tang-verse/releases/download/v1.0/the-tang-verse-showcase.mp4) | 26.8 MB |
+| ☀️ 浅色版 | [`the-tang-verse-showcase-light.mp4`](the-tang-verse-showcase-light.mp4) · **13.7 MB** | [Release v1.0](https://github.com/podcatcher962/tang-verse/releases/download/v1.0/the-tang-verse-showcase-light.mp4) · 23.5 MB |
+| 🌙 深色版 | [`the-tang-verse-showcase.mp4`](the-tang-verse-showcase.mp4) · **13.7 MB** | [Release v1.0](https://github.com/podcatcher962/tang-verse/releases/download/v1.0/the-tang-verse-showcase.mp4) · 26.8 MB |
 
-> 影片体积较大，随本仓库的 **Release v1.0** 发布；页面内联播放走发布镜像，下载按钮指向 Release 原件。
+> 两层发行：随仓库分发的**网页轻量版**（1080×1920 / 25fps / 1.3 Mbps，各 13.7 MB）用于站内直接起播，与页面同源、无需外部图床；**高清原件**（2.2 / 2.4 Mbps）放在 Release v1.0，点下载按钮取得，适合投屏或二次剪辑。
 
 配乐为**程序合成的原创曲目**（古筝式拨弦 / 箫 / 太鼓 / 弦乐垫 / 钟锣），不含任何第三方采样，可放心商用；章节切换处全部卡在分镜转场上。
 
@@ -125,14 +125,14 @@
 
 ### Film
 
-Plays inline (light cut by default, dark cut available), and both are downloadable:
+Plays inline (light cut by default, dark cut available), and the HD master is downloadable:
 
-| Cut | File (GitHub Release) | Size |
+| Cut | Web cut (in repo, plays inline) | HD master (Release download) |
 |---|---|---|
-| ☀️ Light | [`the-tang-verse-showcase-light.mp4`](https://github.com/podcatcher962/tang-verse/releases/download/v1.0/the-tang-verse-showcase-light.mp4) | 23.5 MB |
-| 🌙 Dark | [`the-tang-verse-showcase.mp4`](https://github.com/podcatcher962/tang-verse/releases/download/v1.0/the-tang-verse-showcase.mp4) | 26.8 MB |
+| ☀️ Light | [`the-tang-verse-showcase-light.mp4`](the-tang-verse-showcase-light.mp4) · **13.7 MB** | [Release v1.0](https://github.com/podcatcher962/tang-verse/releases/download/v1.0/the-tang-verse-showcase-light.mp4) · 23.5 MB |
+| 🌙 Dark | [`the-tang-verse-showcase.mp4`](the-tang-verse-showcase.mp4) · **13.7 MB** | [Release v1.0](https://github.com/podcatcher962/tang-verse/releases/download/v1.0/the-tang-verse-showcase.mp4) · 26.8 MB |
 
-The films ship with **Release v1.0** of this repo; inline playback is served from the release mirror, while the download button points to the release asset itself.
+Two tiers: the **web cut** (1080×1920 / 25 fps / 1.3 Mbps, 13.7 MB each) ships inside this repo so playback is same-origin with the page and starts fast; the **HD master** (2.2 / 2.4 Mbps) lives in Release v1.0 behind the download button, for projection or re-editing.
 
 The score is **procedurally synthesised** (guzheng-like plucks, xiao, taiko, string pad, bell and gong) with zero third-party samples — safe for commercial use. Every chapter change lands on a cut point.
 
