@@ -44,6 +44,8 @@
 | ☀️ 浅色版 | [`the-tang-verse-showcase-light.mp4`](https://github.com/podcatcher962/tang-verse/releases/download/v1.0/the-tang-verse-showcase-light.mp4) | 23.5 MB |
 | 🌙 深色版 | [`the-tang-verse-showcase.mp4`](https://github.com/podcatcher962/tang-verse/releases/download/v1.0/the-tang-verse-showcase.mp4) | 26.8 MB |
 
+> 影片体积较大，随本仓库的 **Release v1.0** 发布；页面内联播放走发布镜像，下载按钮指向 Release 原件。
+
 配乐为**程序合成的原创曲目**（古筝式拨弦 / 箫 / 太鼓 / 弦乐垫 / 钟锣），不含任何第三方采样，可放心商用；章节切换处全部卡在分镜转场上。
 
 ### 场景组（9 组 · 22 图）
@@ -61,9 +63,9 @@
 | 09 | 🌌 超现实未来风 | 2 | 液态金属银缎、解构廓形 |
 
 <p align="center">
-  <img src="images/%E7%AC%AC2%E7%BB%84%E5%9C%BA%E6%99%AF_%E8%88%9E%E5%8F%B0%E8%B5%B0%E7%A7%80_%E5%A5%B3%E6%A8%A1%E7%89%B9%E8%B5%B0%E7%A7%80_90655e1c.jpg" width="255">
-  <img src="images/%E7%AC%AC6%E7%BB%84%E5%9C%BA%E6%99%AF_%E5%8F%A4%E5%A0%A1%E6%80%80%E6%97%A7_%E5%A5%B3%E6%A8%A1%E7%89%B9_%E7%83%9B%E5%85%89%E5%9B%9E%E6%9C%9B.jpg" width="255">
-  <img src="images/%E7%AC%AC7%E7%BB%84%E5%9C%BA%E6%99%AF_%E8%B6%85%E7%8E%B0%E5%AE%9E%E6%9C%AA%E6%9D%A5%E9%A3%8E_%E5%A5%B3%E6%A8%A1%E7%89%B9_%E5%85%89%E7%8E%AF%E6%82%AC%E6%B5%AE.jpg" width="255">
+  <img src="images/readme-1.jpg" width="255">
+  <img src="images/readme-2.jpg" width="255">
+  <img src="images/readme-3.jpg" width="255">
 </p>
 
 ### 设计链路
@@ -129,6 +131,8 @@ Plays inline (light cut by default, dark cut available), and both are downloadab
 |---|---|---|
 | ☀️ Light | [`the-tang-verse-showcase-light.mp4`](https://github.com/podcatcher962/tang-verse/releases/download/v1.0/the-tang-verse-showcase-light.mp4) | 23.5 MB |
 | 🌙 Dark | [`the-tang-verse-showcase.mp4`](https://github.com/podcatcher962/tang-verse/releases/download/v1.0/the-tang-verse-showcase.mp4) | 26.8 MB |
+
+The films ship with **Release v1.0** of this repo; inline playback is served from the release mirror, while the download button points to the release asset itself.
 
 The score is **procedurally synthesised** (guzheng-like plucks, xiao, taiko, string pad, bell and gong) with zero third-party samples — safe for commercial use. Every chapter change lands on a cut point.
 
