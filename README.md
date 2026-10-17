@@ -39,10 +39,10 @@
 
 页面内可直接播放（默认浅色版，可切深色版），也可下载：
 
-| 版本 | 文件 | 大小 |
+| 版本 | 文件（GitHub Release） | 大小 |
 |---|---|---|
-| ☀️ 浅色版 | [`the-tang-verse-showcase-light.mp4`](the-tang-verse-showcase-light.mp4) | 23.5 MB |
-| 🌙 深色版 | [`the-tang-verse-showcase.mp4`](the-tang-verse-showcase.mp4) | 26.8 MB |
+| ☀️ 浅色版 | [`the-tang-verse-showcase-light.mp4`](https://github.com/podcatcher962/tang-verse/releases/download/v1.0/the-tang-verse-showcase-light.mp4) | 23.5 MB |
+| 🌙 深色版 | [`the-tang-verse-showcase.mp4`](https://github.com/podcatcher962/tang-verse/releases/download/v1.0/the-tang-verse-showcase.mp4) | 26.8 MB |
 
 配乐为**程序合成的原创曲目**（古筝式拨弦 / 箫 / 太鼓 / 弦乐垫 / 钟锣），不含任何第三方采样，可放心商用；章节切换处全部卡在分镜转场上。
 
@@ -125,10 +125,10 @@
 
 Plays inline (light cut by default, dark cut available), and both are downloadable:
 
-| Cut | File | Size |
+| Cut | File (GitHub Release) | Size |
 |---|---|---|
-| ☀️ Light | [`the-tang-verse-showcase-light.mp4`](the-tang-verse-showcase-light.mp4) | 23.5 MB |
-| 🌙 Dark | [`the-tang-verse-showcase.mp4`](the-tang-verse-showcase.mp4) | 26.8 MB |
+| ☀️ Light | [`the-tang-verse-showcase-light.mp4`](https://github.com/podcatcher962/tang-verse/releases/download/v1.0/the-tang-verse-showcase-light.mp4) | 23.5 MB |
+| 🌙 Dark | [`the-tang-verse-showcase.mp4`](https://github.com/podcatcher962/tang-verse/releases/download/v1.0/the-tang-verse-showcase.mp4) | 26.8 MB |
 
 The score is **procedurally synthesised** (guzheng-like plucks, xiao, taiko, string pad, bell and gong) with zero third-party samples — safe for commercial use. Every chapter change lands on a cut point.
 
