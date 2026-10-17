@@ -1,0 +1,16 @@
+{
+  "name": "大唐诗路 The Tang Verse",
+  "short_name": "大唐诗路",
+  "description": "唐风新中式系列套装 —— 22 张 AI 设计图 · 七组场景 · 82 秒竖版发布片（原创配乐）· 中英双语 · 深浅双主题",
+  "lang": "zh-CN",
+  "start_url": "/tang-verse/",
+  "scope": "/tang-verse/",
+  "display": "standalone",
+  "background_color": "#eee2c9",
+  "theme_color": "#a4762a",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
